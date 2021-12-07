@@ -1,0 +1,31 @@
+{
+  "name": "superjson",
+  "version": "1.0.0",
+  "description": "library for serialization and deserialization json",
+  "main": "./lib/json.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ru51a4/superjson.git"
+  },
+  "keywords": [
+    "serialization",
+    "json",
+    "deserialization",
+    "json5"
+  ],
+  "author": "ru51a4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ru51a4/superjson/issues"
+  },
+  "homepage": "https://github.com/ru51a4/superjson#readme",
+  "devDependencies": {
+    "jest": "^27.4.3"
+  }
+}
