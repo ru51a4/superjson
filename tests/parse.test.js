@@ -1,7 +1,6 @@
 const superJSON = require('../lib/json');
 
 test('1', () => {
-    //todo ISO 8879:1986
     let str = `{
     "glossary": {
         "title": "example glossary",
@@ -13,7 +12,7 @@ test('1', () => {
 \t\t\t\t\t"SortAs": "SGML",
 \t\t\t\t\t"GlossTerm": "Standard Generalized Markup Language",
 \t\t\t\t\t"Acronym": "SGML",
-\t\t\t\t\t"Abbrev": "ISO 8879",
+\t\t\t\t\t"Abbrev": "ISO 8879:1986",
 \t\t\t\t\t"GlossDef": {
                         "para": "A meta-markup language, used to create markup languages such as DocBook.",
 \t\t\t\t\t\t"GlossSeeAlso": ["GML", "XML"]
@@ -160,8 +159,7 @@ test('4', () => {
   "taglib": {
     "taglib-uri": "cofax.tld",
     "taglib-location": "/WEB-INF/tlds/cofax.tld"}}}`;
-    // todo : problem
-    //expect(superJSON.parse(str)).toEqual(JSON.parse(str));
+expect(superJSON.parse(str)).toEqual(JSON.parse(str));
 
 })
 
