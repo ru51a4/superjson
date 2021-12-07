@@ -194,3 +194,8 @@ test('5', () => {
     expect(superJSON.parse(str)).toEqual(JSON.parse(str));
 
 })
+
+test('6', () => {
+let str = '[[1,1,1],[1,1,1],[[1,1,1],[1,1,1]]]';
+    expect(superJSON.parse(str)).toEqual(JSON.parse(str));
+})
