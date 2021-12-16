@@ -1,6 +1,6 @@
 {
-  "name": "superjson",
-  "version": "1.0.0",
+"name": "@superwebteam/superjson",
+"version": "1.0.0",
   "description": "library for serialization and deserialization json",
   "main": "./lib/json.js",
   "directories": {
@@ -16,8 +16,7 @@
   "keywords": [
     "serialization",
     "json",
-    "deserialization",
-    "json5"
+    "deserialization"
   ],
   "author": "ru51a4",
   "license": "ISC",

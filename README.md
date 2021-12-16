@@ -1,5 +1,9 @@
-# superjson
+# superjson  
 library for serialization and deserialization json.  
-status: unstable(in development)  
-
+```js
+decode:  
+superJSON.parse(string);
+code:  
+superJSON.stringify(object);
+```
 
